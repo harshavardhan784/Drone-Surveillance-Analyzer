@@ -1,13 +1,13 @@
 
 # 🚨 Drone Security Analyst Agent
 
-A functional prototype of an intelligent agent that monitors fixed property using a docked drone. It simulates real-time video and telemetry analysis to detect suspicious events, generate alerts, and provide contextual insights through AI-based querying and summarization.
+A functional prototype of an intelligent agentic application that monitors fixed property using a docked drone. It simulates real-time video and telemetry analysis to detect suspicious events, generate alerts, and provide contextual insights through AI-based querying and summarization.
 
 # Demo
 
-[Orchestratorpart1 Demo](https://www.loom.com/share/e3d0599a936b470981e075f903ff1d45?sid=60fe94e0-96b7-4116-8e4b-25c0219c0f78)
-[Orchestratorpart2 Demo](https://www.loom.com/share/cc5d6dea814443aebbf58e28b366ac56?sid=37213bd0-decd-4b87-a52b-8ab1bc5715be)
-[Orchestratorpart3_Demo](https://www.loom.com/share/c6c90f25f9144e40ba513b8d5c73129e?sid=cb8b23fd-1a28-429a-8ea1-374dcb6e1bbe)
+[Demo part1](https://www.loom.com/share/e3d0599a936b470981e075f903ff1d45?sid=60fe94e0-96b7-4116-8e4b-25c0219c0f78)
+[Demo part2](https://www.loom.com/share/cc5d6dea814443aebbf58e28b366ac56?sid=37213bd0-decd-4b87-a52b-8ab1bc5715be)
+[Demo part3](https://www.loom.com/share/c6c90f25f9144e40ba513b8d5c73129e?sid=cb8b23fd-1a28-429a-8ea1-374dcb6e1bbe)
 ---
 
 ## 🔍 Key Features
@@ -66,10 +66,13 @@ Simulated Drone Data
 ```
 ├── tools/
 │   └── GeminiApiTool.py
+│   └── OrchestratorTool.py
 ├── utils/
 │   ├── utils.py
 ├── my_agent.py
 ├── run.py
+├── SurveillanceAndAlertsAgent.py
+├── TelemetryAndQueryAgent.py
 ├── streamlit_ui.py
 ├── README.md
 ├── requirements.txt
@@ -118,6 +121,7 @@ streamlit run app.py
 - **LLM Integration**: GPT/Gemini powers summarization and querying, enabling rich semantic understanding.
 - **Modular Tools**: Tools are separated in `tools/` and `utils/` to maintain clean architecture.
 - **Vector Search**: Semantic search enhances user interaction by allowing natural language queries on past events.
+- **Orchestrator**: Orchestrate between Telemetry and Survellience agent.
 - **Streamlit UI**: Offers a quick, lightweight interface for demonstrations and operator interactions.
 
 ---
