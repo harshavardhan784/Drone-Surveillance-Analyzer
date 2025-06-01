@@ -131,6 +131,7 @@ streamlit run app.py
 - High scalability for adding new alert rules or detection models.
 - Easy to adapt from simulated to real drone telemetry feeds.
 - Fast debugging and prototyping through MODULAR design.
+- Orchestrates between multiple agents and flexible to extend the idea.
 
 ---
 
