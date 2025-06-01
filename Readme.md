@@ -5,9 +5,6 @@ A functional prototype of an intelligent agent that monitors fixed property usin
 
 # Demo
 
-[Workflow](https://www.loom.com/share/50fc0ffcf4ef47c29f42702ecf86fd18?sid=89d0494c-9e05-4840-aa39-1eb549c0d77f)
-[UI Based Execution](https://www.loom.com/share/68f463bc75ee47a782aa33046340ffba?sid=33b78b4f-9cd8-4b1f-bb11-107f4dc5c0de)
-
 [Orchestratorpart1 Demo](https://www.loom.com/share/e3d0599a936b470981e075f903ff1d45?sid=60fe94e0-96b7-4116-8e4b-25c0219c0f78)
 [Orchestratorpart2 Demo](https://www.loom.com/share/cc5d6dea814443aebbf58e28b366ac56?sid=37213bd0-decd-4b87-a52b-8ab1bc5715be)
 [Orchestratorpart3_Demo](https://www.loom.com/share/c6c90f25f9144e40ba513b8d5c73129e?sid=cb8b23fd-1a28-429a-8ea1-374dcb6e1bbe)
